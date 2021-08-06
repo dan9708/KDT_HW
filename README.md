@@ -1,3 +1,12 @@
 # KDT_HW
+Repo to do KDT_H
 
-week2 homework
+## Prequisite
+
+## Installation
+
+## How to use
+
+## Contribute
+
+##
