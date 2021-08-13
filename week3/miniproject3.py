@@ -28,7 +28,7 @@
 from NaverNewsCrawler import NaverNewsCrawler
 
 ####사용자로 부터 기사 수집을 원하는 키워드를 input을 이용해 입력받아 ? 부분에 넣으세요
-keyword = input('keyword: ')
+keyword = input('insert keyword: ')
 crawler = NaverNewsCrawler(keyword)
 
 
@@ -84,6 +84,7 @@ def send_mail(name, addr, subject, contents, attachment=None):
     smtp.login(SMTP_USER, SMTP_PASSWORD)
     smtp.sendmail(SMTP_USER, addr, msg.as_string())
     smtp.close()
+
 
 #### 프로젝트 폴더에 있는 email_list.xlsx 파일에 이메일 받을 사람들의 정보를 입력하세요.
 
